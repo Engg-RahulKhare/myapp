@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
   return (
     <div>
-      <h1>React Tab Bar Example</h1>
+      <h1>Control Center </h1>
       <MyTabBar />
     </div>
   );

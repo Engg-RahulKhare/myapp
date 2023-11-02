@@ -6,36 +6,36 @@ import AllCollapseExample from './AllCollapseExample';
 const MyTabBar = () => {
   const [key, setKey] = useState('tab1');
   const [accordionItemsTab1, setAccordionItemsTab1] = useState([]);
-  const [accordionItemsTab2, setAccordionItemsTab2] = useState([]);
-  const [accordionItemsTab3, setAccordionItemsTab3] = useState([]);
-  const [inputTitle, setInputTitle] = useState('');
-  const [inputField1, setInputField1] = useState('');
-  const [inputField2, setInputField2] = useState('');
-  const [inputField3, setInputField3] = useState('');
+  // const [accordionItemsTab2, setAccordionItemsTab2] = useState([]);
+  // const [accordionItemsTab3, setAccordionItemsTab3] = useState([]);
+  // const [inputTitle, setInputTitle] = useState('');
+  // const [inputField1, setInputField1] = useState('');
+  // const [inputField2, setInputField2] = useState('');
+  // const [inputField3, setInputField3] = useState('');
 
   const handleAddAccordionItemTab1 = (newItem) => {
     setAccordionItemsTab1([...accordionItemsTab1, newItem]);
   };
 
-  const handleAddAccordionItemTab2 = (newItem) => {
-    setAccordionItemsTab2([...accordionItemsTab2, newItem]);
-  };
+  // const handleAddAccordionItemTab2 = (newItem) => {
+  //   setAccordionItemsTab2([...accordionItemsTab2, newItem]);
+  // };
 
-  const handleAddAccordionItemTab3 = (newItem) => {
-    setAccordionItemsTab3([...accordionItemsTab3, newItem]);
-  };
+  // const handleAddAccordionItemTab3 = (newItem) => {
+  //   setAccordionItemsTab3([...accordionItemsTab3, newItem]);
+  // };
 
   const handleRemoveAccordionItemTab1 = (itemId) => {
     setAccordionItemsTab1(accordionItemsTab1.filter((item) => item.id !== itemId));
   };
 
-  const handleRemoveAccordionItemTab2 = (itemId) => {
-    setAccordionItemsTab2(accordionItemsTab2.filter((item) => item.id !== itemId));
-  };
+  // const handleRemoveAccordionItemTab2 = (itemId) => {
+  //   setAccordionItemsTab2(accordionItemsTab2.filter((item) => item.id !== itemId));
+  // };
 
-  const handleRemoveAccordionItemTab3 = (itemId) => {
-    setAccordionItemsTab3(accordionItemsTab3.filter((item) => item.id !== itemId));
-  };
+  // const handleRemoveAccordionItemTab3 = (itemId) => {
+  //   setAccordionItemsTab3(accordionItemsTab3.filter((item) => item.id !== itemId));
+  // };
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
